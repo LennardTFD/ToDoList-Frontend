@@ -2,12 +2,12 @@ class App {
     constructor()
     {
         this.config = {
-            apiKey: "AIzaSyBYs4IOGilhBBSAjfxMXlkN-8l144_kVnE",
-            authDomain: "todolist-d6bbe.firebaseapp.com",
-            databaseURL: "https://todolist-d6bbe.firebaseio.com",
-            projectId: "todolist-d6bbe",
-            storageBucket: "todolist-d6bbe.appspot.com",
-            messagingSenderId: "752563920662"
+            apiKey: "APIKEY",
+            authDomain: "todolist-ID.firebaseapp.com",
+            databaseURL: "https://todolist-ID.firebaseio.com",
+            projectId: "todolist-ID",
+            storageBucket: "todolist-ID.appspot.com",
+            messagingSenderId: "SENDERID"
         };
         firebase.initializeApp(this.config);
         this.gui = new GUI();
