@@ -5,7 +5,7 @@ class Auth {
         this.auth = firebase.auth();
         this.listener();
         this.trigger();
-        this.httpUrl = "https://europe-west1-todolist-d6bbe.cloudfunctions.net/";
+        this.httpUrl = "https://europe-west1-todolist-ID.cloudfunctions.net/";
 
     }
 
