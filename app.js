@@ -5,12 +5,12 @@ $(document).ready(function () {
 (function()
 {
     var config = {
-        apiKey: "AIzaSyBYs4IOGilhBBSAjfxMXlkN-8l144_kVnE",
-        authDomain: "todolist-d6bbe.firebaseapp.com",
-        databaseURL: "https://todolist-d6bbe.firebaseio.com",
-        projectId: "todolist-d6bbe",
-        storageBucket: "todolist-d6bbe.appspot.com",
-        messagingSenderId: "752563920662"
+        apiKey: "APIKEY",
+        authDomain: "DOMAIN",
+        databaseURL: "DBURÖ",
+        projectId: "todolist-ID",
+        storageBucket: "todolist-ID.appspot.com",
+        messagingSenderId: "SENDERID"
     };
     firebase.initializeApp(config);
 
@@ -20,7 +20,7 @@ $(document).ready(function () {
 
     const auth = firebase.auth();
     const firestore = firebase.firestore();
-    const httpUrl = "https://europe-west1-todolist-d6bbe.cloudfunctions.net/";
+    const httpUrl = "https://europe-west1-todolist-ID.cloudfunctions.net/";
 
     let currentPage = (window.location.href).split("?p=");
     currentPage = currentPage[currentPage.length -1];
